@@ -1,10 +1,6 @@
 # Jenkins Neo2 Theme
 
-[![Build Status](https://travis-ci.org/TobiX/jenkins-neo2-theme.svg?branch=master)](https://travis-ci.org/TobiX/jenkins-neo2-theme)
-
-Beautify your Jenkins with the a modern flat theme!
-
-Website: https://tobix.github.io/jenkins-neo2-theme
+[![Build Status](https://travis-ci.org/kajisaap/jenkins-neo2-theme.svg?branch=master)](https://travis-ci.org/TobiX/jenkins-neo2-theme)
 
 This started as a fork to **jenkins-neo-theme**, which itself started as a fork
 to the **jenkins-material-theme**, but was developed further to work correctly
@@ -31,7 +27,7 @@ with modern versions of Jenkins.
 
 3. Click `Configure System` and scroll down to `Theme`
 
-4. Specify the URL for `https://tobix.github.io/jenkins-neo2-theme/dist/neo-light.css`.
+4. Specify the URL for `https://kajisaap.github.io/jenkins-neo2-theme/dist/neo-light.css`.
 
 5. Click `Save`
 
@@ -39,8 +35,7 @@ with modern versions of Jenkins.
 ### Using your Jenkins Hosting
 
 1. Copy the file
-   `https://tobix.github.io/jenkins-neo2-theme/dist/neo-light.css` to the
-   directory `userContent` in your `JENKINS_HOME`
+   `https://kajisaap.github.io/jenkins-neo2-theme/dist/neo-light.css` to the directory `userContent` in your `JENKINS_HOME`
 
 2. Follow the steps of the previous method and use `/userContent/neo-light.css`
    as the URL.
