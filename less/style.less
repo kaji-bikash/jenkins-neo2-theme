@@ -316,22 +316,48 @@ td {
 	color: #f44336
 }
 
-.console-output, .console-output * {
-	position: relative;
-	font-family: @font-console, monospace !important;
-	font-size: 14px;
-	background: #263238;
-	color: #e9eded;
-	cursor: text
-}
+// .console-output, .console-output * {
+// 	position: relative;
+// 	font-family: @font-console, monospace !important;
+// 	font-size: 14px;
+// 	background: #263238;
+// 	color: #e9eded;
+// 	cursor: text
+// }
 
-.console-output {
-	padding: 10px 20px;
+.console-output, .console-output * {
+  padding: 10px 20px;
   a {
     color: @console-white;
     font-weight: bold;
   }
+    font-size:16px;
+    background-color:#393939;
+    color:#b5c4d0;
+    padding:20px 20px 30px;
+    border-radius:3px;
+    /*box-shadow*/
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/;
+    background-clip:padding-box;
+    // /*@@prefixmycss->No equivalent*/
+    // : ;
+    // /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
 }
+
+//
+// .console-output {
+//
+// }
 
 .ace_editor, .ace_editor * {
   font-family:  @font-console, monospace !important;
